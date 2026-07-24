@@ -1,57 +1,151 @@
 <!DOCTYPE html>
-<html lang="ar" dir="rtl">
-<head>
-<meta charset="UTF-8">
+<html lang="ar" dir="rtl"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>قسم بين الحرمين الشريفين - شعبة العوارض</title>
+<title>دليل زائر كربلاء</title>
 <style>
-body{font-family:Tahoma,Arial;background:#111;color:#fff;margin:0}
-header{background:#222;padding:20px;text-align:center}
-h1{margin:0}
-.container{max-width:900px;margin:auto;padding:20px}
-input{width:100%;padding:12px;border-radius:8px;border:none;margin-bottom:18px}
-.card{background:#1e2d3a;border-radius:12px;padding:14px;margin:10px 0;display:flex;justify-content:space-between;align-items:center}
-a.btn{background:#f4a300;color:#000;text-decoration:none;padding:8px 14px;border-radius:8px;font-weight:bold}
-small{color:#ccc}
-</style>
-<script>
-function searchSite(){
- let q=document.getElementById("q").value.toLowerCase();
- document.querySelectorAll(".card").forEach(c=>{
-   c.style.display=c.innerText.toLowerCase().includes(q)?"flex":"none";
- });
-}
-</script>
-</head>
-<body>
-<header>
-<h1>العتبة العباسية المقدسة</h1>
-<h3>قسم بين الحرمين الشريفين</h3>
-<h3>شعبة العوارض</h3>
-</header>
-<div class="container">
-<input id="q" onkeyup="searchSite()" placeholder="ابحث عن موقع...">
+body{font-family:Tahoma,Arial;background:#f4f4f4;margin:0}
+header{background:linear-gradient(135deg,#0d5c3b,#b7922e);color:#fff;text-align:center;padding:25px}
+.wrap{max-width:900px;margin:auto;padding:18px}
+#q{width:100%;padding:12px;border-radius:10px;border:1px solid #bbb}
+.card{background:#fff;border-radius:12px;padding:15px;margin:12px 0;box-shadow:0 2px 8px rgba(0,0,0,.15)}
+.btn{display:inline-block;background:#0d5c3b;color:#fff;text-decoration:none;padding:10px 16px;border-radius:8px}
+footer{text-align:center;color:#666;padding:20px}
+</style></head><body>
+<header><h1>العتبة العباسية المقدسة</h1><h2>قسم بين الحرمين الشريفين</h2><h3>شعبة العوارض</h3><p>دليل المواقع المهمة للزائر</p></header>
+<div class="wrap">
+<input id="q" placeholder="🔍 ابحث عن موقع..." onkeyup="f()">
 
-<div class="card"><div><strong>العتبة الحسينية المقدسة</strong><br><small>حرم مطهر امام حسين (ع)</small></div><a class="btn" href="https://maps.app.goo.gl/rPcuAbVFQmPkeXAV7?g_st=ic" target="_blank">📍 فتح الموقع</a></div>
-<div class="card"><div><strong>العتبة العباسية المقدسة</strong><br><small>حرم مطهر حضرت عباس (ع)</small></div><a class="btn" href="https://maps.app.goo.gl/dRexjji3Xyz7UkKb6?g_st=ic" target="_blank">📍 فتح الموقع</a></div>
-<div class="card"><div><strong>باب طويريج</strong><br><small>باب طویریج</small></div><a class="btn" href="https://maps.app.goo.gl/xvfRGeRcpKXhiifV6?g_st=ic" target="_blank">📍 فتح الموقع</a></div>
-<div class="card"><div><strong>مقام الطفل الرضيع</strong><br><small>مقام طفل شيرخوار</small></div><a class="btn" href="https://maps.app.goo.gl/S3UC1x2C8ftR8qcw7?g_st=ic" target="_blank">📍 فتح الموقع</a></div>
-<div class="card"><div><strong>مستوصف باب بغداد</strong><br><small>درمانگاه باب بغداد</small></div><a class="btn" href="https://maps.app.goo.gl/NZPBiCPe6eghoAVs7?g_st=ic" target="_blank">📍 فتح الموقع</a></div>
-<div class="card"><div><strong>سوق العلاوي</strong><br><small>بازار علاوی</small></div><a class="btn" href="https://maps.app.goo.gl/Qa784Nft2gVgEFBA9?g_st=ic" target="_blank">📍 فتح الموقع</a></div>
-<div class="card"><div><strong>مقام الإمام المهدي (عج)</strong><br><small></small></div><a class="btn" href="#" target="_blank">📍 فتح الموقع</a></div>
-<div class="card"><div><strong>كف العباس الأيمن</strong><br><small></small></div><a class="btn" href="#" target="_blank">📍 فتح الموقع</a></div>
-<div class="card"><div><strong>كف العباس الأيسر</strong><br><small></small></div><a class="btn" href="#" target="_blank">📍 فتح الموقع</a></div>
-<div class="card"><div><strong>شارع السدرة</strong><br><small></small></div><a class="btn" href="#" target="_blank">📍 فتح الموقع</a></div>
-<div class="card"><div><strong>الراية المركزية</strong><br><small></small></div><a class="btn" href="#" target="_blank">📍 فتح الموقع</a></div>
-<div class="card"><div><strong>مجمع الكوثر</strong><br><small></small></div><a class="btn" href="#" target="_blank">📍 فتح الموقع</a></div>
-<div class="card"><div><strong>صحيات باب بغداد</strong><br><small></small></div><a class="btn" href="#" target="_blank">📍 فتح الموقع</a></div>
-<div class="card"><div><strong>مركز المفقودين – العتبة الحسينية</strong><br><small></small></div><a class="btn" href="#" target="_blank">📍 فتح الموقع</a></div>
-<div class="card"><div><strong>كراج سيد جودة</strong><br><small></small></div><a class="btn" href="#" target="_blank">📍 فتح الموقع</a></div>
-<div class="card"><div><strong>مقام علي الأصغر (ع)</strong><br><small></small></div><a class="btn" href="#" target="_blank">📍 فتح الموقع</a></div>
-<div class="card"><div><strong>مقام علي الأكبر (ع)</strong><br><small></small></div><a class="btn" href="#" target="_blank">📍 فتح الموقع</a></div>
-<div class="card"><div><strong>المخيم الحسيني</strong><br><small></small></div><a class="btn" href="#" target="_blank">📍 فتح الموقع</a></div>
-<div class="card"><div><strong>التل الزينبي</strong><br><small></small></div><a class="btn" href="#" target="_blank">📍 فتح الموقع</a></div>
-<div class="card"><div><strong>مستشفى السفير</strong><br><small></small></div><a class="btn" href="#" target="_blank">📍 فتح الموقع</a></div>
-<div class="card"><div><strong>شارع قبلة الإمام الحسين (ع)</strong><br><small></small></div><a class="btn" href="#" target="_blank">📍 فتح الموقع</a></div>
-<div class="card"><div><strong>شارع قبلة الإمام العباس (ع)</strong><br><small></small></div><a class="btn" href="#" target="_blank">📍 فتح الموقع</a></div>
-</div></body></html>
+<div class='card'>
+<h3>🕌 مرقد الإمام الحسين (ع)</h3>
+<p>حرم امام حسین (ع)</p>
+<a class='btn' href='https://maps.app.goo.gl/3x53Kfezit4T1Wuu8?g_st=ic' target='_blank'>📍 فتح الموقع</a>
+</div>
+
+<div class='card'>
+<h3>🕌 مرقد أبي الفضل العباس (ع)</h3>
+<p>حرم حضرت عباس (ع)</p>
+<a class='btn' href='https://maps.app.goo.gl/wG3AgZegHrW1A6Kr7?g_st=ic' target='_blank'>📍 فتح الموقع</a>
+</div>
+
+<div class='card'>
+<h3>🕌 التل الزينبي</h3>
+<p>تل زینبیه</p>
+<a class='btn' href='https://maps.app.goo.gl/umETTEAmQ6xA33Dt7?g_st=ic' target='_blank'>📍 فتح الموقع</a>
+</div>
+
+<div class='card'>
+<h3>🏛️ مقام الإمام المهدي (عج)</h3>
+<p>مقام امام مهدی</p>
+<a class='btn' href='https://maps.app.goo.gl/heoGhhzV93oH1omc7?g_st=ic' target='_blank'>📍 فتح الموقع</a>
+</div>
+
+<div class='card'>
+<h3>🏛️ مقام الإمام جعفر الصادق (ع)</h3>
+<p></p>
+<a class='btn' href='https://maps.app.goo.gl/hWGGuuVwe4bWRrnj9?g_st=ipc' target='_blank'>📍 فتح الموقع</a>
+</div>
+
+<div class='card'>
+<h3>🏛️ مقام علي الأكبر (ع)</h3>
+<p></p>
+<a class='btn' href='https://maps.app.goo.gl/9Ya5VNB8PzffNABHA?g_st=ipc' target='_blank'>📍 فتح الموقع</a>
+</div>
+
+<div class='card'>
+<h3>🏛️ مقام علي الأصغر (ع)</h3>
+<p></p>
+<a class='btn' href='https://maps.app.goo.gl/cqXreVsjscg9D6Up8?g_st=ic' target='_blank'>📍 فتح الموقع</a>
+</div>
+
+<div class='card'>
+<h3>🏛️ مقام الطفل الرضيع (ع)</h3>
+<p></p>
+<a class='btn' href='https://maps.app.goo.gl/z4pNtg4F1tieZh4u5?g_st=ic' target='_blank'>📍 فتح الموقع</a>
+</div>
+
+<div class='card'>
+<h3>🚍 باب طويريج</h3>
+<p></p>
+<a class='btn' href='https://maps.app.goo.gl/BZ1s9eW5ZLR7bZvX9?g_st=ic' target='_blank'>📍 فتح الموقع</a>
+</div>
+
+<div class='card'>
+<h3>🚍 كراج بغداد</h3>
+<p></p>
+<a class='btn' href='https://maps.app.goo.gl/jE48DfPyHzA1a1N8A?g_st=ic' target='_blank'>📍 فتح الموقع</a>
+</div>
+
+<div class='card'>
+<h3>🚍 كراج الموحد</h3>
+<p></p>
+<a class='btn' href='https://maps.app.goo.gl/VuC1Uo5SPpjYF3sk8?g_st=ic' target='_blank'>📍 فتح الموقع</a>
+</div>
+
+<div class='card'>
+<h3>🛟 المخيم الحسيني</h3>
+<p></p>
+<a class='btn' href='https://maps.app.goo.gl/PudaUjq5eKtsx2rH7?g_st=ic' target='_blank'>📍 فتح الموقع</a>
+</div>
+
+<div class='card'>
+<h3>🛟 مركز المفقودين</h3>
+<p></p>
+<a class='btn' href='https://maps.app.goo.gl/wG3AgZegHrW1A6Kr7?g_st=ic' target='_blank'>📍 فتح الموقع</a>
+</div>
+
+<div class='card'>
+<h3>🛣️ شارع الجمهورية</h3>
+<p></p>
+<a class='btn' href='https://maps.app.goo.gl/RxMN5hac3jy1Yx7m8?g_st=ipc' target='_blank'>📍 فتح الموقع</a>
+</div>
+
+<div class='card'>
+<h3>🛣️ شارع قبلة الإمام الحسين (ع)</h3>
+<p></p>
+<a class='btn' href='https://maps.app.goo.gl/5GUVwX4Das7FG9tY9?g_st=ic' target='_blank'>📍 فتح الموقع</a>
+</div>
+
+<div class='card'>
+<h3>🛣️ شارع قبلة الإمام العباس (ع)</h3>
+<p></p>
+<a class='btn' href='https://maps.app.goo.gl/Us8CR4G3qNBCWkuX7?g_st=ic' target='_blank'>📍 فتح الموقع</a>
+</div>
+
+<div class='card'>
+<h3>🏥 مستشفى السفير</h3>
+<p></p>
+<a class='btn' href='https://maps.app.goo.gl/zFt4t6D6BMUhtT888?g_st=ic' target='_blank'>📍 فتح الموقع</a>
+</div>
+
+<div class='card'>
+<h3>🏥 مستوصف باب بغداد</h3>
+<p></p>
+<a class='btn' href='https://maps.app.goo.gl/qHW7FSSULwwKPMFY6?g_st=ic' target='_blank'>📍 فتح الموقع</a>
+</div>
+
+<div class='card'>
+<h3>🏥 صحيات باب بغداد</h3>
+<p></p>
+<a class='btn' href='https://maps.app.goo.gl/veznpf41BmZ9zL1L9?g_st=ic' target='_blank'>📍 فتح الموقع</a>
+</div>
+
+<div class='card'>
+<h3>🛒 سوق العلاوي</h3>
+<p></p>
+<a class='btn' href='https://maps.app.goo.gl/qTuwjzUSr9beE5ag9?g_st=ic' target='_blank'>📍 فتح الموقع</a>
+</div>
+
+<div class='card'>
+<h3>🛒 المركزية</h3>
+<p></p>
+<a class='btn' href='https://maps.app.goo.gl/qRp8P4RnNRvss2uFA?g_st=ic' target='_blank'>📍 فتح الموقع</a>
+</div>
+
+</div>
+<footer>إعداد دليل زائري كربلاء</footer>
+<script>
+function f(){
+let s=document.getElementById('q').value.toLowerCase();
+document.querySelectorAll('.card').forEach(c=>c.style.display=c.innerText.toLowerCase().includes(s)?'block':'none');
+}
+</script></body></html>
